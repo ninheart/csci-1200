@@ -1,0 +1,71 @@
+ [22]
+                                                                                        " Simon" [6]
+                                                                   [1]
+                                                                                        "s" [1]
+                                             [6]
+                                                                                        "me i" [4]
+                                                                   [2]
+                                                                                        "na" [2]
+                       [9]
+                                                                  "my " [3]
+                                             [6]
+                                                                  "Hello " [6]
+Strings for rope of size: 22
+Hello |my |na|me i|s| Simon
+Comparing string "Hello my name is Simon" to Rope:
+ [22]
+                                                                                        " Simon" [6]
+                                                                   [1]
+                                                                                        "s" [1]
+                                             [6]
+                                                                                        "me i" [4]
+                                                                   [2]
+                                                                                        "na" [2]
+                       [9]
+                                                                  "my " [3]
+                                             [6]
+                                                                  "Hello " [6]
+***Index test passed.
+***Basic report test passed.
+Comparing string "Hello my " to Rope:
+         "my " [3]
+ [6]
+         "Hello " [6]
+Comparing string "name i" to Rope:
+      "me i" [4]
+ [2]
+      "na" [2]
+***More index tests passed.
+Comparing string "Hello my name i" to Rope:
+                              "me i" [4]
+                [2]
+                              "na" [2]
+ [9]
+                              "my " [3]
+                [6]
+                              "Hello " [6]
+9
+***Concatenation test passed
+Strings for rope of size: 11
+Hello |my |na
+Strings for rope of size: 11
+me i|s| Simon
+Comparing string "Hello my na" to Rope:
+ [22]
+                       [6]
+                                  [2]
+                                            "na" [2]
+            [9]
+                                 "my " [3]
+                       [6]
+                                 "Hello " [6]
+Comparing string "me is Simon" to Rope:
+                      " Simon" [6]
+            [1]
+                      "s" [1]
+ [4]
+           "me i" [4]
+***Split test passed
+***Copy test passed
+***Assignment test passed
+***Basic tests passed.
